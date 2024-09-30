@@ -3,10 +3,10 @@ name: Android CI
 on:
   push:
     branches:
-      - main  # Run on every push to the 'main' branch
+      - master  # Run on every push to the 'master' branch
   pull_request:
     branches:
-      - main  # Run on every pull request to the 'main' branch
+      - master  # Run on every pull request to the 'master' branch
 
 jobs:
   build:
